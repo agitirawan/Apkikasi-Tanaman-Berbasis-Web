@@ -1,28 +1,28 @@
 <?php
 
 class Model_kategori extends CI_Model{
-	public function data_elektronik()
+	public function data_tanamanbunga()
 	{
-		return $this->db->get_where("tb_barang",array('kategori' => 'elektronik'));
+		return $this->db->get_where("tb_barang",array('kategori' => 'Tanaman Bunga'));
 	}
 
-	public function data_pakaian_pria()
+	public function data_tanamanobat()
 	{
-		return $this->db->get_where("tb_barang",array('kategori' => 'pakaian pria'));
+		return $this->db->get_where("tb_barang",array('kategori' => 'Tanaman Obat'));
 	}
 
-	public function data_pakaian_wanita()
+	public function data_tanamandaun()
 	{
-		return $this->db->get_where("tb_barang",array('kategori' => 'pakaian wanita'));
+		return $this->db->get_where("tb_barang",array('kategori' => 'Tanaman Daun'));
 	}
 
-	public function data_pakaian_anak_anak()
+	public function data_pupuktanaman()
 	{
-		return $this->db->get_where("tb_barang",array('kategori' => 'pakaian anak anak'));
+		return $this->db->get_where("tb_barang",array('kategori' => 'Pupuk Tanaman'));
 	}
 
-	public function data_peralatan_olahraga()
+	public function data_potbunga()
 	{
-		return $this->db->get_where("tb_barang",array('kategori' => 'peralatan olahraga'));
+		return $this->db->get_where("tb_barang",array('kategori' => 'Pot Bunga'));
 	}
 }

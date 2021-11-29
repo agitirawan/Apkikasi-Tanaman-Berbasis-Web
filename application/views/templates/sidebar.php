@@ -35,27 +35,32 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('kategori/elektronik') ?>">
+        <a class="nav-link" href="<?php echo base_url('kategori/tanamanbunga') ?>">
           <i class="fas fa-fw fa-tv"></i>
           <span>Tanaman Bunga</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('kategori/pakaian_pria') ?>">
+        <a class="nav-link" href="<?php echo base_url('kategori/tanamanobat') ?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Tanaman Obat</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('kategori/pakaian_wanita') ?>">
+        <a class="nav-link" href="<?php echo base_url('kategori/tanamandaun') ?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Tanaman Daun</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('kategori/peralatan_olahraga') ?>">
+        <a class="nav-link" href="<?php echo base_url('kategori/pupuktanaman') ?>">
           <i class="fas fa-fw fa-futbol"></i>
           <span>Pupuk Tanaman</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('kategori/potbunga') ?>">
+          <i class="fas fa-fw fa-futbol"></i>
+          <span>Pot Bunga</span></a>
       </li>
 
       <!-- Divider -->

@@ -60,11 +60,11 @@
         	<div class="form-group">
 				<label>Kategori</label>
 				<select class="form-control" name="kategori">
-					<option>Elektronik</option>
-					<option>Pakaian Pria</option>
-					<option>Pakaian Wanita</option>
-					<option>Pakaian Anak-anak</option>
-					<option>Peralatan Olahraga</option>
+					<option>Tanaman Bunga</option>
+					<option>Tanaman Obat</option>
+					<option>Tanaman Daun</option>
+					<option>Pupuk Tanaman</option>
+					<option>Pot Bunga</option>
 				</select>       		
         	</div>
 
