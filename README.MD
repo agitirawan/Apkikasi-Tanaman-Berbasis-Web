@@ -12,7 +12,10 @@ SISTEM INFORMASI DAN APLIKASI PENJUALAN TANAMAN BERBASIS WEBSITE
 
 (Kamis, 11 November 2021)
 1. Membuat tampilan dashboard admin dan user.
-2. Upload Database
+2. Membuat fitur login dan register.
+3. Membuat tampilan fitur invoice.
+4. Membuat tampilan fitur CRUD data barang.
+5. Upload Database.
 
 (Rabu, 17 November 2021)
 1. Membuat fitur kategori barang.
@@ -21,6 +24,6 @@ SISTEM INFORMASI DAN APLIKASI PENJUALAN TANAMAN BERBASIS WEBSITE
 1. Membuat fitur kritik dan saran.
 
 (Senin, 29 November 2021)
-1. Memperbaiki fitur kategori barang dan tampilan admin user.
+1. Memperbaiki fitur kategori barang dan tampilan header sidebar admin user.
 2. Mengupload foto barang.
 3. Memperbaiki database.
