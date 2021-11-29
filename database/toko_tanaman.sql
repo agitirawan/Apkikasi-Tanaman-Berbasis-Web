@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 11, 2021 at 05:09 AM
+-- Generation Time: Nov 29, 2021 at 02:15 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -51,7 +51,7 @@ INSERT INTO `tb_admin` (`id_admin`, `nm_admin`, `username`, `password`, `role_id
 CREATE TABLE `tb_barang` (
   `id_brg` int(11) NOT NULL,
   `nama_brg` varchar(120) NOT NULL,
-  `keterangan` varchar(225) NOT NULL,
+  `keterangan` varchar(250) NOT NULL,
   `kategori` varchar(60) NOT NULL,
   `harga` int(11) NOT NULL,
   `stok` int(4) NOT NULL,
@@ -63,27 +63,11 @@ CREATE TABLE `tb_barang` (
 --
 
 INSERT INTO `tb_barang` (`id_brg`, `nama_brg`, `keterangan`, `kategori`, `harga`, `stok`, `gambar`) VALUES
-(2, 'Sepatu Adidas', 'Sepatu Adidas Running Sport', 'Peralatan Olahraga', 7000000, 16, 'olahraga.jpg'),
-(5, 'Samsung Galaxy S10', 'Samsung Galaxy S10', 'Elektronik', 11500000, 16, 'samsung.jpg'),
-(6, 'Sweeter Pria', 'Sweeter Pull Bear', 'Pakaian Pria', 350000, 8, 'sweeter.jpg'),
-(7, 'Sweeter Wanita', 'Sweeter Wanita', 'Pakaian Wanita', 240000, 2, 'sweetcewe.jpg'),
-(10, 'Jam Tangan Pria', 'Jam Tangan Tali Kulit', 'Pakaian Pria', 8700000, 10, 'jam1.jpg'),
-(11, 'leptop', 'leptop', 'Elektronik', 8700000, 18, 'leptop11.jpg'),
-(12, 'Sepatu Futsal Adidas', 'Sepatu Futsal Adidas', 'Peralatan Olahraga', 350000, 10, 'Sepatu_Futsal_Adidas1.jpg'),
-(13, 'Sepatu Bola Adidas', 'Sepatu Bola Adidas Messi', 'Peralatan Olahraga', 1500000, 5, 'Sepatu_Bola_Adidas1.jpg'),
-(14, 'TV OLED Samsung', 'TV OLED Samsung', 'Elektronik', 10500000, 20, 'tvsamsung1.jpg'),
-(16, 'TV Tabung', 'TV Tabung 26 Inc', 'Elektronik', 750000, 100, 'tvtabung1.jpg'),
-(17, 'Mesin Cuci Sharp', 'Mesin Cuci Sharp', 'Elektronik', 1500000, 20, 'cucisharp1.jpg'),
-(18, 'HP Nokia 105', 'HP Nokia 105', 'Elektronik', 350000, 50, 'hpnokia1051.jpg'),
-(19, 'Sepatu Running Adidas', 'Sepatu Running Adidas', 'Peralatan Olahraga', 7500000, 10, 'sepatu1.jpg'),
-(20, 'T-Shirt Eiger', 'T-Shirt Eiger', 'Pakaian Pria', 125000, 5, 'kaose1.jpg'),
-(21, 'T-shirt Eiger Hitam', 'T-shirt Eiger Hitam', 'Pakaian Pria', 120000, 5, 'kaoseiger1.jpg'),
-(22, 'Consina Outdoor T-Shirt', 'Consina Outdoor T-Shirt', 'Pakaian Pria', 150000, 5, 'consina1.jpg'),
-(23, 'Celana Jeans', 'Jeans Levis', 'Pakaian Pria', 276000, 10, 'jeans1.jpg'),
-(24, 'Jeans Biru', 'Jeans Levis', 'Pakaian Pria', 750000, 10, 'jeansbiru1.jpg'),
-(25, 'Celana Chino', 'celana Panjang', 'Pakaian Pria', 276000, 50, 'celana1.jpg'),
-(26, 'Bola Adidas Fifa World Cup 2018', 'Bola', 'Peralatan Olahraga', 1500000, 50, 'adidasbola1.jpg'),
-(27, 'Baju Muslim Wanita', 'Baju Muslim Wanita', 'Pakaian Wanita', 350000, 10, 'muslim1.jpg');
+(28, 'MUSKOT Pot tanaman, putih, 12 cm', 'Hias rumah dengan tanaman dalam pot sesuai selera Anda.', 'Pot Bunga', 45000, 5, 'Pot_tanaman_putih,_12_cm.jpg'),
+(29, 'Pupuk Tanaman Magic Gro G6', 'Gunakan Pupuk Tanaman Magic Gro G6 1 Ltr sebagai asupan nutrisi tanaman outdoor. Pupuk hayati ini mengandung energi mineral organik yang tidak mengandung racun dan bakteri berbahaya sehingga aman bagi makhluk hidup. Praktis', 'Pupuk Tanaman', 65000, 8, 'Pupuk_Tanaman_Magic_Gro_G6.PNG'),
+(30, 'Tanaman Kembang Teleng Obat Mata Pewarna Alami', 'proses pemesanan kita lakukan dalam 12-24 jam/ produk kami usahakan lebih cepat dan tergantung jumlah order yg diterima dihari itu', 'Tanaman Obat', 10000, 20, 'Tanaman_Kembang_Teleng_Obat_Mata_Pewarna_Alami.PNG'),
+(31, 'Tanaman Bunga Hidup Aster putih', 'Bunga mungil dari keluarga aster ini banyak dimanfaatkan untuk memperindah dekorasi panggung perayaan, pernikahan ataupun seminar.  Tanaman hidup. ukuran kurleb 20-30cm', 'Tanaman Bunga', 20000, 13, 'Tanaman_Bunga_Hidup_Aster_putih.PNG'),
+(32, 'Tanaman bunga kana daun kuning / canna tall pretoria', 'Kana lily Tanaman daun kuningmemiliki nama ilmiah canna tall pretoria. Tanaman bergenre bunga ini merupakan jenis tanaman tropis yang Berasal dari Amerika Selatan dan Tengah yang dapat tumbuh baik diberbagai iklim Indonesia y', 'Tanaman Daun', 20000, 11, 'Tanaman_kana_daun_kuning_atau_canna_tall_pretoria.PNG');
 
 -- --------------------------------------------------------
 
@@ -98,6 +82,13 @@ CREATE TABLE `tb_invoice` (
   `tgl_pesan` datetime NOT NULL,
   `batas_bayar` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tb_invoice`
+--
+
+INSERT INTO `tb_invoice` (`id`, `nama`, `alamat`, `tgl_pesan`, `batas_bayar`) VALUES
+(33, 'Husnul Hotimah 2', 'probolinggo', '2021-11-28 19:36:43', '2021-11-29 19:36:43');
 
 -- --------------------------------------------------------
 
@@ -146,7 +137,10 @@ CREATE TABLE `tb_user` (
 
 INSERT INTO `tb_user` (`id`, `nama`, `username`, `password`, `role_id`) VALUES
 (1, 'admin', 'admin', '123456', 1),
-(2, 'user', 'user', '654321', 2);
+(2, 'user', 'user', '654321', 2),
+(3, 'Septianda Reza Maulana', 'septianda07', '123456789', 2),
+(4, 'Husnul Hotimah', 'husnul', '12345', 2),
+(5, 'Agit ari', 'ari', '12345678', 2);
 
 --
 -- Indexes for dumped tables
@@ -196,19 +190,19 @@ ALTER TABLE `tb_admin`
 -- AUTO_INCREMENT for table `tb_barang`
 --
 ALTER TABLE `tb_barang`
-  MODIFY `id_brg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id_brg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `tb_invoice`
 --
 ALTER TABLE `tb_invoice`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `tb_pesanan`
 --
 ALTER TABLE `tb_pesanan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `tb_user`
