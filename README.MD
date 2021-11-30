@@ -27,3 +27,8 @@ SISTEM INFORMASI DAN APLIKASI PENJUALAN TANAMAN BERBASIS WEBSITE
 1. Memperbaiki fitur kategori barang dan tampilan header sidebar admin user.
 2. Mengupload foto barang.
 3. Memperbaiki database.
+
+(Selasa, 30 November 2021)
+1. Membuat fitur tampilan upload form dan success.
+2. Membuat fitur keranjang.
+3. Mmebuat fitur transaksi(Pemesanan, Pembayaran).
