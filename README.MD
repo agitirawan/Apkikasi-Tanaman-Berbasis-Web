@@ -31,4 +31,4 @@ SISTEM INFORMASI DAN APLIKASI PENJUALAN TANAMAN BERBASIS WEBSITE
 (Selasa, 30 November 2021)
 1. Membuat fitur tampilan upload form dan success.
 2. Membuat fitur keranjang.
-3. Mmebuat fitur transaksi(Pemesanan, Pembayaran).
+3. Membuat fitur transaksi(Pemesanan, Pembayaran).
