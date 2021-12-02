@@ -35,3 +35,4 @@ SISTEM INFORMASI DAN APLIKASI PENJUALAN TANAMAN BERBASIS WEBSITE
 
 (Kamis, 02 Desember 2021)
 1. Membuat view PupukTanaman.
+2. Membuat view potbunga, tanamanbunga, tanaman daun, tanaman obat.
