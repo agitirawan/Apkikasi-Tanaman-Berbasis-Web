@@ -32,3 +32,6 @@ SISTEM INFORMASI DAN APLIKASI PENJUALAN TANAMAN BERBASIS WEBSITE
 1. Membuat fitur tampilan upload form dan success.
 2. Membuat fitur keranjang.
 3. Membuat fitur transaksi(Pemesanan, Pembayaran).
+
+(Kamis, 02 Desember 2021)
+1. Membuat view PupukTanaman.
